@@ -2,7 +2,7 @@ const Twit = require("twit");
 const config = require("./configs/twitterConfig.js");
 const lyrics = require("./lyrics");
 
-const twitterUsername = "@jvenegasbot";
+const twitterUsername = "@julietavbot";
 
 const T = new Twit(config);
 
