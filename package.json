@@ -1,0 +1,33 @@
+{
+  "name": "julieta-venegas-twitter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/absoluteterrorfield/julieta-venegas-twitter-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "twitter",
+    "julieta",
+    "venegas",
+    "lyrics",
+    "letras"
+  ],
+  "author": "Francesca Rodriguez Gerzovich (@absoluteterrorfield)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/absoluteterrorfield/julieta-venegas-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/absoluteterrorfield/julieta-venegas-twitter-bot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twit": "^2.2.11"
+  }
+}
